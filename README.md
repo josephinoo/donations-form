@@ -10,31 +10,37 @@
 ![forks](https://img.shields.io/github/forks/eljosephavila123/donations-form?style=social)
 ![size](https://img.shields.io/github/repo-size/eljosephavila123/donations-form)
 
-## Server-PHP
+## Server-PHP 📡
 
 ![server](https://github.com/eljosephavila123/donations-form/blob/master/img/app-screen/server.png?raw=true)
 
 
-## Login Donaciones
+## Login Donaciones💡
 ![donaciones-login](https://github.com/eljosephavila123/donations-form/blob/master/img/app-screen/login.png?raw=true)
 
-## Fill Login
+## Fill Login🎉
 
 ![fill-login](https://github.com/eljosephavila123/donations-form/blob/master/img/app-screen/fill-login.png?raw=true)
 
-## Tables
+## Tables📊
 
 ![tables](https://github.com/eljosephavila123/donations-form/blob/master/img/app-screen/table.png?raw=true)
 
-## Search value 
+## Search value 🗃
 
 ![search-value](https://github.com/eljosephavila123/donations-form/blob/master/img/app-screen/search-table.png?raw=true)
 
-## Filter table
+## Filter table📁
 
 ![filter](https://github.com/eljosephavila123/donations-form/blob/master/img/app-screen/filter.png?raw=true)
 
-## Database 
+## Database 🧲
 
 ![database](https://github.com/eljosephavila123/donations-form/blob/master/img/app-screen/database.png?raw=true)
 
+## 🖥 Requirements
+Donations-form requires a PHP version higher or equal to 7.2
+
+## 📘 License 
+
+Donations-form content management system is released under the under terms of the MIT License.
