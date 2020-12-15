@@ -1,8 +1,17 @@
 /* Demo Only */
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+    background: #4CAF50;
+}
 * {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    position: center;
 }
 
 
@@ -20,7 +29,8 @@ h2 {
 .table-wrapper {
 
     box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
-    align-content:center;
+
+   
 }
 
 .fl-table {

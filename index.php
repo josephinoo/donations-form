@@ -47,7 +47,7 @@
 		</form>
 	</div>
 	<?php 
-	include("regitrar.php")
+	include("registrar.php")
 	
 	
 		

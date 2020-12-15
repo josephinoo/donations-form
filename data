@@ -16,7 +16,7 @@
             <input type="submit" name="search" value="Buscar"><br><br>
         </form>
         <?php 
-        
+        include("filtroDonaciones.php");
         ?>
         <div class="table-wrapper">
             <table class="fl-table">
@@ -32,7 +32,7 @@
                 <tbody>
                     <?php
              include("table.php");
-    
+        include("filtroDonaciones.php");
 
              
         ?>
