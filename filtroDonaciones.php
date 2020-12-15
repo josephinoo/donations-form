@@ -55,6 +55,7 @@
                  }
              }
               $result->free();
+              $conex->close ();
 
             }
 

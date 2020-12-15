@@ -19,6 +19,7 @@
                  }
              }
               $result->free();
+              $conex->close ();
 
              
 
