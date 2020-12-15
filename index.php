@@ -4,7 +4,7 @@
 <head>
 	<title>Registrar usuario</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 
 <body>
@@ -22,41 +22,32 @@
 				<input placeholder="Email" name="email" type="email" tabindex="3" required>
 			</fieldset>
 			<fieldset>
-				<input placeholder="Ingrese tu numero de telefono" type="tel" name ="phone" tabindex="4" required>
+				<input placeholder="Ingrese tu numero de telefono" type="tel" name="phone" tabindex="4" required>
 			</fieldset>
 			<fieldset>
 
 				<legend>Que vas a Donar</legend>
-				<input type="checkbox" name="donationR" value="Cats">Ropa<br>
-				<input type="checkbox" name="donationZ" value="Dogs">Zapatos<br>
-				<input type="checkbox" name="donationC" value="Birds">Carrito<br>
-				<input type="checkbox" name="donationM" value="Birds">Muñeca<br>
-				<input type="checkbox" name="donationB" value="Birds">Botón<br>
+				<input type="checkbox" name="donationR" value="ropa">Ropa<br>
+				<input type="checkbox" name="donationZ" value="zapatos">Zapatos<br>
+				<input type="checkbox" name="donationC" value="carrito">Carrito<br>
+				<input type="checkbox" name="donationM" value="muñeca">Muñeca<br>
+				<input type="checkbox" name="donationB" value="boton">Botón<br>
 
 
 
 			</fieldset>
 			<fieldset>
-				<button	 type="submit" id="contact-submit" name="register"data-submit="...Sending">Donar</button>
+				<button type="submit" id="contact-submit" name="register" data-submit="...Sending">Donar</button>
 			</fieldset>
 			<fieldset>
-				<a href="URL" id="table-donation" role="button">Donaciones</a>
+				<a href="donaciones.php" id="table-donation" role="button">Donaciones</a>
 			</fieldset>
 
 
 		</form>
 	</div>
 	<?php 
-		include("con_db.php");
-
-if (isset($_POST['register'])) {
-
-	 
-	    	
-	    
-   
-    
-}
+	include("regitrar.php")
 	
 	
 		
